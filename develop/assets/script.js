@@ -1,0 +1,27 @@
+// Declare alll variables to be used
+var score = "Score " + 0;
+var startBtnEl = document.querySelector("#start");
+var timerBtnEl = document.querySelector("#timer");
+var answerBtnsEl = document.querySelector(".answer-text");
+var timerSeconds = 60;
+var remainingTime = 0;
+var score = 0;
+var initialBtnEl = document.querySelector("#initials-btn");
+var quizTimer = undefined;
+var currentIndex = 0;
+var hideHeader = document.querySelector("#hideHeader")
+var hideUl = document.querySelector("#hideUl")
+var hideUl2 = document.querySelector("#hideUl2")
+var headerChic = document.querySelector("#hideHeaderChic")
+var gameScore1 = document.querySelector("#gameScore1")
+    gameScore1.textContent ="Score " + 0; 
+var questionEl = document.querySelector("#questions-to-ask");
+var answerOneButtonEl = document.querySelector("#answer-one");
+var answerTwoButtonEl = document.querySelector("#answer-two");
+var answerThreeButtonEl = document.querySelector("#answer-three");
+var answerFourButtonEl = document.querySelector("#answer-four");
+var alert = document.querySelector("#alert");
+var highscore = document.querySelector("#highscore")
+var score = "Score " + 0;
+var initialsInput = document.querySelector(".score-section")
+var gameScore = document.querySelector(".game-score")
