@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  
+  .main-container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+  
+  }
+  
+  header {
+    display: flex;
+  
+  }
+  
+  .answer-text {
+    margin: 10px;
+    padding: 5px;
+    
+  }
+  
+  li {
+    list-style: none;
+  
+  }
+  
+   .page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  } 
+  
+  header{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .timer-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 5px; 
+  }
+  
+  .score-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .answer-text-styling {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    padding: 0px;
+  }
+  
+  .startBtn {
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+  }
+  
+  .even-row {
+    margin-top: 10px;
+  }
+  
+  .question-section, .questions-list{
+    text-align: center;
+  }
+  
+  .initials-btn {
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+  }
+  
+  .question-title {
+    text-align: center;
+  }
+  
+  #highscore{
+    background-color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+  }  
