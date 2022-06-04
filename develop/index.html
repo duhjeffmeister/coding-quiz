@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+  <main class="main-container">
+    <div class="timer-btn">
+      <div class="high-score" id="highscore">High Score</div>
+      <button id ="timer"></button>
+      <div id="gameScore1" class="game-score"></div>
+    </div>
+    <header>
+        <h3  id="hideHeaderChic">Coding Quiz</h3>
+   </header>
+    </div>
+    <main class="page-content">
+        <section class="question-answer-wrapper" id="question-section">
+            <h4 class="question-title" id="hideHeader">Click the button below to start the quiz!Z</h4>
+                <ul class="questions-list" id="hideUl2">
+                <li class="question-text" id="questions-to-ask"></li>
+                </ul>
+        </section>
+        <section id="answer-section" class="answers">
+            <div>
+                <div class="answer-text-styling" id="hideUl">
+                <ul id="evenRow" class="even-row">
+                      <li><button type="button" class="answer-text" id="answer-one"></button></li>
+                      <li><button type="button" class="answer-text" id="answer-two"></button></li>
+                      <li><button type="button" class="answer-text" id="answer-three"></button></li>
+                      <li><button type="button" class="answer-text" id="answer-four"></button></li>
+                </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+          <button type="button" id="start"  class="startBtn">Start the Quiz!</button>
+      </section>
+        <section class="score-section" id="score-section" style="display: none;">
+            <h4>Enter Your Initials Below to Save your Score!</h4>
+            <input class="initials-input" type="text" id="initials-input"/> </br>
+            <button type="button" class="initials-btn" id="initials-btn"> Save Score </button>
+             
+        </section>
+        <div>
+          <h3 id="alert"></h3>
+        </div>
+        </main>
+    </main>
+    
+    <script src="./assets/script.js"></script>
+</body>
+</html>
